@@ -15,6 +15,7 @@
 		AD1713651DDAA2F4001C6A0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1713631DDAA2F4001C6A0C /* LaunchScreen.storyboard */; };
 		AD1713701DDAA2F4001C6A0C /* KVODemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD17136F1DDAA2F4001C6A0C /* KVODemoTests.m */; };
 		AD17137B1DDAA2F4001C6A0C /* KVODemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD17137A1DDAA2F4001C6A0C /* KVODemoUITests.m */; };
+		AD17138D1DDAA38F001C6A0C /* StudentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD17138C1DDAA38F001C6A0C /* StudentModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		AD1713761DDAA2F4001C6A0C /* KVODemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVODemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD17137A1DDAA2F4001C6A0C /* KVODemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVODemoUITests.m; sourceTree = "<group>"; };
 		AD17137C1DDAA2F4001C6A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD17138B1DDAA38F001C6A0C /* StudentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentModel.h; sourceTree = "<group>"; };
+		AD17138C1DDAA38F001C6A0C /* StudentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				AD1713591DDAA2F3001C6A0C /* AppDelegate.m */,
 				AD17135B1DDAA2F3001C6A0C /* ViewController.h */,
 				AD17135C1DDAA2F3001C6A0C /* ViewController.m */,
+				AD17138B1DDAA38F001C6A0C /* StudentModel.h */,
+				AD17138C1DDAA38F001C6A0C /* StudentModel.m */,
 				AD17135E1DDAA2F4001C6A0C /* Main.storyboard */,
 				AD1713611DDAA2F4001C6A0C /* Assets.xcassets */,
 				AD1713631DDAA2F4001C6A0C /* LaunchScreen.storyboard */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD17135D1DDAA2F3001C6A0C /* ViewController.m in Sources */,
+				AD17138D1DDAA38F001C6A0C /* StudentModel.m in Sources */,
 				AD17135A1DDAA2F3001C6A0C /* AppDelegate.m in Sources */,
 				AD1713571DDAA2F3001C6A0C /* main.m in Sources */,
 			);
